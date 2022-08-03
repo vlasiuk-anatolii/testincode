@@ -1,0 +1,53 @@
+@import '../../fonts.scss'; 
+
+.home {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  align-items: center;
+  justify-content: center;
+  background-color: #1D283A;
+  
+  &__congratmainimg {
+    position: relative;
+    left: 60px;
+    margin-bottom: 48px;
+    object-fit: contain;
+  }
+
+  &__congrattext {
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    width: 466px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  &__button {
+    position: relative;
+    top: -3px;
+    width: 98px;
+    height: 44px;
+    background-color: #539713;
+    border-style: none;
+    margin-bottom: 72px;
+    &:hover {
+      cursor: pointer;
+      background-color: #B2D0AD;
+    }
+  }
+
+  &__buttonname{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+  }
+}

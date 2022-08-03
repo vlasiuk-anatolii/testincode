@@ -1,0 +1,78 @@
+@import '../../fonts.scss'; 
+
+.signup {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  align-items: center;
+  justify-content: center;
+  background-color: #1D283A;
+  margin: 0 auto;
+  height: 900px;
+  width: 424px;
+  
+  &__title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 84px;
+    color: #fff;
+    letter-spacing: 3%;
+    left: 48px;
+    top: 199px;
+    margin-bottom: 48px;
+  }
+  
+  &__form {
+    top: 52px;
+  }
+  
+  &__button {
+    position: relative;
+    top: -3px;
+    width: 330px;
+    height: 44px;
+    background-color: #539713;
+    border-style: none;
+    margin-bottom: 8px;
+    &:hover {
+      cursor: pointer;
+      background-color: #B2D0AD;
+    }
+  }
+
+  &__buttonname{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+  }
+
+  &__undernotice {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #fff;
+    &--up {
+      position: relative;
+      left: -19px;
+      top: 14px;
+    }
+  }
+
+  &__newaccount {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #7FAAF0;
+    text-decoration: none ;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
